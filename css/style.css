@@ -1,0 +1,39 @@
+/* General */
+:root {
+	--main-color-dark: #0d172d;
+	--main-color-middle: #122144;
+	--accent-color: #99cb49;
+	--accent-color-dark: #7fa93d;
+}
+/* End General */
+
+/* Main Screen */
+.main-screen {
+	min-height: 100vh;
+	background:
+		linear-gradient(to right, var(--main-color-dark), var(--main-color-middle));
+}
+.navbar .navbar-brand img {
+	height: 20px;
+}
+.navbar li.active,
+.navbar li:hover {
+	border-bottom: 2px solid var(--accent-color);
+}
+.navbar .search-btn {
+	background-color: var(--accent-color);
+	color: #fff;
+}
+.navbar .search-btn:hover {
+	background-color: var(--accent-color-dark);
+}
+.main-screen .offer {
+	min-height: 70vh;
+	background-image: url(../img/engines.png);
+	background-repeat: no-repeat;
+	background-size: 60vh;
+	background-position: center right;
+	color: #fff;
+	padding-top: 20vh;
+}
+/* End Main Screen */
