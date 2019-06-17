@@ -5,6 +5,15 @@
 	--accent-color: #99cb49;
 	--accent-color-dark: #7fa93d;
 }
+.btn-accent {
+	color: #fff;
+	background-color: var(--accent-color);
+	text-transform: uppercase;
+}
+.btn-accent:hover {
+	color: #fff;
+	background-color: var(--accent-color-dark);
+}
 /* End General */
 
 /* Main Screen */
